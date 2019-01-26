@@ -1,4 +1,4 @@
-const connection = require("../config/connection.js");
+const connection = require("./connection");
 
 // The below helper function loops through and creates an array of question marks - ["?", "?", "?"] - and turns it into a string.
 // ["?", "?", "?"].toString() => "?,?,?";
